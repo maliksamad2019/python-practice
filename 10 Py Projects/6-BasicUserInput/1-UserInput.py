@@ -9,5 +9,5 @@ while True:
     if user_input == 'exit':
         break
 
-    temprature = int(user_input)
+    temprature = float(user_input)
     print(weather_condition(temprature))
